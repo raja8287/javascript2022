@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js dom functions</title>
+
+</head>
+<body>
+    <div class="main">
+     WELCOME TO THE DOM using getElementsByClassName
+    </div>
+    <div class="main">
+         DOM using getElementsByClassName
+       </div>
+
+    
+</body>
+<script>
+    //using document.getElementbyid
+    //var x=document.getElementById("main").innerHTML;
+    //console.log(x);
+    var t=document.getElementsByClassName("main")[1].innerHTML;
+    alert(t)
+    document.getElementsByClassName("main")[1].innerHTML="this is explicitly typed"
+    
+
+
+
+</script>
+</html>
