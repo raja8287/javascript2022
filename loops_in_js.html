@@ -10,9 +10,34 @@
     
  </body>
  <script type="text/javascript">
+  /*  //for loop
     for(var c=0;c<10;c++){
         document.write("HELLO WORLD"+"<br/>")
         
+    }*/
+
+    //while loop
+   /* var c=13
+    while(c<100){  
+      document.write(c);
+
+      c++;
     }
+    document.write("done!")
+    */
+    //foreach
+    var c=["car1","car2","car3"];
+    c.forEach(car);
+    function car(item,index,array){
+     // document.write(index+"=>"+item+"<br/>");
+     array[index]=item+" 0";
+
+    }
+    c.forEach(after);
+    function after(item,index){
+      document.write(index+"=>"+item+"<br/>");
+    }
+
+
  </script>
  </html>
