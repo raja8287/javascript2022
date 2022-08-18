@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional statments</title>
+</head>
+<body>
+    <i>enter input:</i>
+    <br>
+    <input type="number" name="first" id="first" step="any "/>
+    <br>
+    <button onclick="call()">click here</button>
+
+
+</body>
+<script type="text/javascript">
+    function call(){
+    var i=document.getElementById('first').value;
+    if(60<i>=18){
+        document.write("YES! YOU ARE ELIGIBAL TO VOTE");
+    }
+    else{
+        document.write("NO! YOU CAN NOT VOTE")
+    }
+}
+</script>
+</html>
