@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <form>
+        <table>REGISTRATION FORM FOR SUBJECT
+            <item>
+                <tr>
+                    <td>NAME:</td>
+                    <td ><input id="name" type="name"></td>
+                </tr>
+                
+                <tr> 
+                    <td>ROLL NO:</td>
+                    <td><input id="roll no" type="number"></td>
+                </tr>
+                <tr>
+                    <td>AGE:</td>
+                    <td><input id="age" type="number"></td>
+                </tr>
+                <tr>
+                    <td>CLASS:</td>
+                    <td><input id="class" type="text"></td>
+                </tr>
+                <tr>
+                    <td>MARKS OBTEN:</td>
+                    <td><input id="marks" type="text"></td>
+                </tr>
+                
+
+            </item>
+        </table>
+    </form>
+    <button style="background-color: red;" onclick="call()">CLICK</button>
+    
+</body>
+<script type="text/javascript">
+function call(){
+    var a=document.getElementById('name').value;
+    var b=document.getElementById('roll no').value;
+    var c=document.getElementById('age').value;
+    var d=document.getElementById('class').value;
+    var e=document.getElementById('marks').value;
+
+    document.write('HI\n'+a);
+    document.write('YOUR ROLL NO:\n '+b);
+    if(c>18){
+        if(e>=199){
+            document.write('your eligibel with \n'+ e +'for further process\n');
+        }
+    }
+    else{
+        prompt('SORRY! YOUR NOT ELGIBALE FOR FURTHER PROCESS');
+    };
+
+
+
+    
+
+}
+</script>
+</html>
