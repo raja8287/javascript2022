@@ -12,11 +12,55 @@
 <body>
 
     <div id="nav-bar">
-        <a  id="login" href="#">LOG IN!</a>
+        <img id="img" src="/2022_javascript/logoimg.png" alt="img">
+       
+        <a  id="login" href="#t">LOG IN!</a>
         <a id="profile" href="#">PROFILE</a>
         <a id="items" href="#">ITMES</a>
         <a id="contact" href="#">CONTACTS</a>
+    
         <button id="btn">Exclusive offers!</button>
       </div>
+      <form id="t">
+        <table id="tab">
+            <td id="log">  LOGIN HERE</td>
+            <tr>
+                <td>NAME:<input id="name" type="text"></td>
+            </tr>
+            <tr> 
+                <td>ROLL NO:<input id="roll" type="number"></td>
+            </tr>
+            <tr> 
+                <td>AGE:<input id="age" type="number"></td>
+            </tr>
+            <tr> 
+                <td>FATHERS NAME:<input id="fname" type="text"></td>
+            </tr>
+            
+        </table>
+      </form>
+     <div id="div"> <button id="lo" onclick="move()">login!</button></div>
+     <img src="" >
+     
 </body>
+<script type="text/javascript">
+function move(){
+    var a=document.getElementById('name').value;
+    var b=document.getElementById('roll').value;
+    var c=document.getElementById('age').value;
+    var d=document.getElementById('fname').value;
+
+document.write("hi\n"+a+"\n");
+document.write("<br>")
+document.write("your roll:\n"+b+"\n");
+document.write("<br>")
+
+document.write("age:\n"+c+"\n");
+document.write("<br>")
+
+document.write("father name:\n"+d+"\n");
+
+}
+
+</script>
 </html>
