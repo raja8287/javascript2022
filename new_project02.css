@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:url(/2022_javascript/austin-poon-JO_S6ewBqAk-unsplash.jpg) ;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+#logo{
+    float: right;
+    display: flex;
+   width: 10%; 
+}
+#logo img{
+    border: red;
+    width: 100%;
+    border-radius: 2em;
+}
+#nav-bar{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    opacity:0.8;
+   background-color: rgb(65, 133, 251);
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+#nav-list{
+    padding: 0px 30px;
+    text-align: left;
+    align-items: center;
+    display: flex;   
+    width: 50%;
+   
+}
+#nav-list li{
+    padding: 26px 70px;
+    list-style-type: none;
+}
+
+#nav-right{
+    padding: 0px 23px;
+   text-align: right;
+    width: 50%;
+    
+}
+#search{
+    border-radius: 20px ;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(49, 190, 209);
+}
+#btn0{
+    cursor: pointer;
+    font-size: large;
+    padding: 7px ;
+    color: white;
+    background: none;
+    border-radius: 4em;
+}
+#bgfs{
+    height: 100%;
+}
+#mainbox{
+    height: 60em;
+    margin: auto;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.box1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box2{
+    width: 20%;
+}
+.box2 img{
+    width: 70%;
+    padding: 4px 0;
+    border-radius: 4em;
+    display: block;
+    margin: auto;
+}
+ .p1{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.p2{
+    font-size: 3em;
+}
+p{
+    font-size: 29px;
+}
+.btn{
+    
+    font-size: 19px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    
+}
+#splash{
+    display: flex;
+flex-direction: row-reverse;}
+#splash img{
+    width: 20%;
+    border-radius: 10px;
+    border: 20px solid gray;
+}

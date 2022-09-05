@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+img{
+    height: 100px;
+    float: left;
+    margin:10px 10px;
+}
+
+nav{
+    height: 6em;
+    margin: 0em 0em;
+    width: 100%;
+    display: inline-block;
+
+    background-color:#1d4052;
+    color: white;
+    padding: 20px;
+    font-family: monospace;
+}
+#nav_bar{
+  
+ text-align: right;   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    margin:  30px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+   
+}

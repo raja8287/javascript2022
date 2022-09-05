@@ -1,0 +1,126 @@
+*{
+    
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+img{
+    font-size: small;
+    box-sizing: border-box;
+    text-align: start;
+    border-radius: 8em;
+    cursor: pointer;
+}
+
+#a{
+     width:100%;
+    background-color: rgb(2, 152, 216);
+    display: inline-block;
+    
+}
+
+#a1{
+    width: 50%;
+    align-items: center;
+    display:flex;
+
+
+}
+ul{
+    list-style-type: none;
+}
+input{
+    border-radius: 7px;
+    font-size: 15px;
+    display: block;
+}
+button{
+    border-radius: 7px;
+    font-size: 13px;
+    display: block;
+}
+
+a{
+    color: azure;
+    font-family:sans-serif;
+    border-radius: 5em;
+    background-color:rgb(10, 186, 239);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin: 0em 5em;
+}
+a:hover{
+
+    color: white;
+    background-color: rgb(23, 22, 22);
+    text-transform: uppercase;
+}
+a:active{
+    color: black;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 15px;
+}
+
+span{
+
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 20px;
+    justify-content: right;
+    display: none;
+}
+span:hover{
+   
+    color: white;
+}
+span:active{
+    font-size: 20px;
+
+}
+@media only screen and (max-width:1000px) {
+   
+    span{
+        float: right;
+        display: block;
+    }
+    #a1 {
+        align-items: center;
+        flex-direction: column;
+        display:block ;
+    }
+    img{
+        float:left;
+        display: block;
+    }
+    button{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    
+}
+#b{
+    clear: both;
+    display: table;
+    opacity: 0.6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/2022_javascript/austin-poon-JO_S6ewBqAk-unsplash.jpg);
+    width: 100%;
+    height: 50em;
+    margin: 0em ;
+}
+.b1{
+    margin: auto;
+    padding-left:auto;
+    width: 70%;
+    height: 100%;
+    background-color:red;
+}
+#b.b1 span{
+    font-size: 10em;
+    color: black;
+}

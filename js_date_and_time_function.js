@@ -1,9 +1,9 @@
 //date functions
-let t=new Date();
-console.log(t);
-console.log(t.getDate());
+let m=new Date();
+console.log(m);
+console.log(m.getDate());
 //time functions
-console.log(t.getTime());
+console.log(m.getTime());
 //day functions
-console.log(t.getDay());
-console.log(t.getMonth());
+console.log(m.getDay());
+console.log(m. getMonth()); 
