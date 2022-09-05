@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    position:sticky;
+    top: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+}
+
+#logo{
+  
+    position: sticky;
+    display: inline;
+    float: left;
+    width: 20%;
+}
+#logo img{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 5px solid white;
+    float: left;
+    background-color: white;
+    width: 20%;
+}
+#search-bar{
+    column-gap: 2ch;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    width: 20%;
+
+}
+#input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 19px;
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 1em;
+    width:70% ;
+margin: auto;
+}
+#input:hover{
+    text-shadow: 10ch;
+    color: white;
+    background-color: rgb(47, 46, 46);
+}
+#btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    float: left;
+    font-size: 19px;
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 1em;
+    margin: auto;
+
+}
+#btn:hover{
+    text-transform: uppercase;
+    background-color:black;
+    color:white;
+}
+#btn:active{
+    background-color: white;
+    color: black;
+}
+#list-item{
+    float: right;
+    padding: 0px 10px;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+#list {
+    column-gap: 5ch;
+    margin: auto;
+    padding: 0px 100px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+}
+#list a{
+    color: black;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    list-style-type: none;
+    padding: 15px 80px;
+}
+#list a:hover{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+
+}
+#list a:active{
+    background-color: white;
+    color: black;
+}
+#mid-section{
+    height: 50%;
+    width: 100%;
+   
+}
+#mid-1{
+
+    height: 10vh;
+    width: 100%;
+display: flex;
+}
+
+#m12{
+
+    margin: auto;
+    width: 50%;
+
+}
