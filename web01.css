@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+   
+}
 #navbar{
     position:sticky;
     top: 0px;
@@ -17,7 +20,7 @@
 
 #logo{
   
-    position: sticky;
+    
     display: inline;
     float: left;
     width: 20%;
@@ -66,6 +69,7 @@ margin: auto;
 
 }
 #btn:hover{
+    transition: 0.6s;
     text-transform: uppercase;
     background-color:black;
     color:white;
@@ -74,7 +78,8 @@ margin: auto;
     background-color: white;
     color: black;
 }
-#list-item{
+.list-item{
+    display:block;
     float: right;
     padding: 0px 10px;
     width: 60%;
@@ -107,6 +112,7 @@ a{
     padding: 15px 80px;
 }
 #list a:hover{
+    transition: 0.5s;
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -117,20 +123,233 @@ a{
     color: black;
 }
 #mid-section{
-    height: 50%;
+    height: 100%;
     width: 100%;
-   
+    
 }
-#mid-1{
+#mid{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/2022_javascript/pexels-ioannis-ritos-995043.jpg);
+    background-color: royalblue;
+    color: white;
+    font-size: larger;
+    font-style:italic;
+    padding: 0px 50%;
+    padding-top: 5%;
+    padding-bottom: 30%;
 
+}
+
+#foot{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+    background-color: black;
     height: 10vh;
     width: 100%;
-display: flex;
+    color: white;
+    padding: 100px 0px;
+    column-gap: 20px;
+}
+#foot img{
+   padding: 10px 10px;
+    border-radius: 100px;
+    border: 5px solid white;
+    height: 50%;
+    width: 1%;
+
+}
+#foot p{
+    padding: 50px 0px;
+}
+#mid00{
+    padding-bottom:100% ;
+    column-gap: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 50px;
+    display: flex;
+}
+#mid10{
+    display: block;
+    padding-right: 100px;
+    margin: auto;
+}
+#mid10 p{
+   
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 70px;
+    
+}
+#mid11{
+    padding-right: 100px;
+    display: block;
+    margin: auto;
+   
+
 }
 
-#m12{
-
+#mid11 input{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-top: 45px;
+    border-radius: 100px;
+    border: 5px solid white;
+    padding:5px 50px;
+}
+#mid11 input:hover{
+    background-color: black;
+    transition: 0.6s;
+    color: white;
+}
+#is{
     margin: auto;
-    width: 50%;
+    column-gap: 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#is p{
+    padding-left: 19vh;
+    padding-top: 10px;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#is input{
+    padding: right 10vh; ;
+    opacity: 0.3;
+    padding: 100px;
+    margin:10px 10px ;
+transform:scale(3.0);
+}
+#loginbtn{
+
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 100px;
+    border: 5px solid white;
+    padding: 50px 100px;
+}
+#loginbtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+#loginbtn:active{
+    background-color: black;
+    color: white;
+}
+#socialmedia{
+    color: white;
+    background-color: rgb(25, 24, 24);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#socialmedia img{
+    cursor: pointer;
+    padding: 0px 80px;
+    width: 100px;
+}
+#socialmedia span{
+    justify-content: center;
+    text-align: center;
+}
+
+
+#list{
+    position: relative;
+
+}
+#t{
+    border-radius:10px ;
+    border: 5px solid black;
+    display: none;
+    color: black;
+    background-color: white;
+    width:220px;
+    top:100%;
+    position: absolute;
+    text-align: center;
+    color: red;
+}
+#t p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 100px;
+    color: black;
+    padding: 20px;
+}
+#t p:hover{
+    text-transform:uppercase;
+    transition: 0.6s;
+    color: white;
+    background-color:rgb(76, 74, 74);
+}
+#li1:hover #t{
+    display: block;
+}
+#ulspan{
+    display: none;
+    padding-right: 100px;
+    cursor: pointer;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    color:red;
+}
+@media only screen and (max-width:1300px){
+    #navbar{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        flex-direction: row;
+    }
+    #logo{
+        margin: auto;
+        width: 10%;
+    }
+    #logo img{
+        width: 100%;
+    }
+    #search-bar{
+        padding: 100px;
+        width: 20%;
+    }
+    #input{
+        height: 30px;
+      width: 1000px;
+    }
+    #btn{
+        height: 80px;
+        width: 1000px;
+    }
+    .list-item{
+        display: block;
+        
+    }
+    #list{
+        flex-direction: column;
+    }
+    #list  li{
+        padding-top:20px;
+        margin: 10px;
+    }
+  #ulspan{
+    display: block;
+    float:right;
+    padding-bottom: 400px;
+    
+  }
+
 
 }

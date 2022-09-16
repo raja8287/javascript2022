@@ -123,3 +123,31 @@ flex-direction: row-reverse;}
     border-radius: 10px;
     border: 20px solid gray;
 }
+
+
+
+
+
+
+     /*  <div id="mid1">
+            <p id="pa">HI HELLO!</p>
+            <img src="/2022_javascript/austin-poon-JO_S6ewBqAk-unsplash.jpg" alt="img" id="img01">
+            
+        </div>
+        <div id="mid12"></div>*/
+
+
+        #mid1{
+            display: flex;
+            margin: auto;
+            height: 50em;
+            width: 100%;
+        }
+        #mid1 img{
+            padding-top: 100px;
+            padding: 0px 0px ;
+            border-radius: 15em;
+            border: 10px solid white;
+            width: 10%;
+        }
+        
